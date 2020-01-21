@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+.content {
+	background-color: lightblue;
+	height: 400px;
+	justify-content: center;
+	display: flex;
+	padding-top: 100px;
+}

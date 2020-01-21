@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+
+.header {
+	color: white;
+	background-color: black;
+	text-align: center;
+	height: 100%;
+	margin-top: -20px;
+}
+
+.Container {
+	width: auto;
+	
+}
+
+.content {
+	background-color: lightblue;
+	height: 400px;
+	justify-content: center;
+	display: flex;
+	padding-top: 100px;
+}
