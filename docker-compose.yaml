@@ -1,0 +1,45 @@
+version: "2"
+
+
+
+services:
+
+
+
+  stayd:
+
+    build: .
+
+    ports:
+
+      - "8083:8080"
+
+    networks:
+
+      - stay-mysql
+
+    depends_on:
+
+      - mysql
+
+
+
+  mysql:
+
+    image: mysql
+
+    networks:
+
+      - stay-mysql
+
+    environment:
+
+      - MYSQL_ROOT_PASSWORD=root
+
+      - MYSQL_DATABASE=stayproject
+
+networks:
+
+  stay-mysql:
+
+
