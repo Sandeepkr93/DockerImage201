@@ -3,7 +3,7 @@ variable "key_name" {
 }
 
 variable "pvt_key" {
-  default = "/home/mtadminnuvelabs/.ssh/devop-aws-demo.pem"
+  default = "/var/lib/jenkins/devop-aws-demo.pem"
 }
 
 variable "sg-id" {
