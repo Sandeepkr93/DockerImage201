@@ -1,5 +1,5 @@
 variable "key_name" {
-  default = "devop-aws-demo"
+  default = "devops-aws-demo"
 }
 
 variable "pvt_key" {
