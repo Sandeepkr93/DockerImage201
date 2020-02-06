@@ -13,7 +13,7 @@ provider "aws" {
 resource "aws_instance" "backend" {
   ami                    = "ami-08cec7c429219e339"
   instance_type          = "t2.micro"
-  key_name               = "${var.key_name}"
+  key_name               = "var.key_name"
   vpc_security_group_ids = ["${var.sg-id}"]
 
 }
