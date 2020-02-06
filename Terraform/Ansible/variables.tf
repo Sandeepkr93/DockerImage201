@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "devopsTerra"
+  default = "devop-aws-demo"
 }
 
 variable "pvt_key" {
-  default = "/root/.ssh/sandeep-aws.pem"
+  default = "/root/.ssh/devop-aws-demo.pem"
 }
 
 variable "us-east-zones" {
-  default = ["us-east-1a", "us-east-1b"]
+  default = ["us-east-2", "us-east-1"]
 }
 
 variable "sg-id" {
-  default = "sg-0475f39960a07679f"
+  default = "sg-047b1b2b557d3339d"
 }
