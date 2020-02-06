@@ -3,11 +3,7 @@ variable "key_name" {
 }
 
 variable "pvt_key" {
-  default = "/var/lib/jenkins/devop-aws-demo.pem"
-}
-
-variable "us-east-zones" {
-  default = ["us-east-2b", "us-east-2c"]
+  default = "/root/.ssh/devop-aws-demo.pem"
 }
 
 variable "sg-id" {
